@@ -3,36 +3,34 @@
   <type>2D</type>
   <styles>
     <entry>
-      <string>jzombies.Zombie</string>
+      <string>jzombies.Roboter</string>
       <string>repast.simphony.visualization.editedStyle.EditedStyle2D</string>
     </entry>
     <entry>
       <string>jzombies.Human</string>
+      <string>repast.simphony.visualization.editedStyle.EditedStyle2D</string>
+    </entry>
+    <entry>
+      <string>jzombies.Ziel</string>
       <string>repast.simphony.visualization.editedStyle.EditedStyle2D</string>
     </entry>
   </styles>
   <editedStyles>
     <entry>
-      <string>jzombies.Zombie</string>
-      <string>jzombies.Zombie.style_3.xml</string>
+      <string>jzombies.Roboter</string>
+      <string>jzombies.Roboter.style_0.xml</string>
     </entry>
     <entry>
       <string>jzombies.Human</string>
-      <string>jzombies.Human.style_1.xml</string>
+      <string>jzombies.Human.style_4.xml</string>
+    </entry>
+    <entry>
+      <string>jzombies.Ziel</string>
+      <string>jzombies.Ziel.style_2.xml</string>
     </entry>
   </editedStyles>
-  <netStyles>
-    <entry>
-      <string>infection network</string>
-      <string>repast.simphony.visualization.editedStyle.EditedEdgeStyle2D</string>
-    </entry>
-  </netStyles>
-  <editedNetStyles>
-    <entry>
-      <string>infection network</string>
-      <string>infectionnetwork.style_0.xml</string>
-    </entry>
-  </editedNetStyles>
+  <netStyles/>
+  <editedNetStyles/>
   <frequency>ON_MOVE</frequency>
   <schedParams>
     <start>1.0</start>
@@ -41,18 +39,22 @@
     <pType>LAST</pType>
     <duration>-1.0</duration>
     <frequency>REPEAT</frequency>
-    <hashCode>-288764668</hashCode>
+    <hashCode>927834490</hashCode>
   </schedParams>
   <layoutClassName>foo.bar.baz</layoutClassName>
   <layoutProjection>space</layoutProjection>
   <layoutInterval>0</layoutInterval>
   <layerOrder>
     <entry>
-      <string>jzombies.Zombie</string>
-      <int>1</int>
+      <string>jzombies.Roboter</string>
+      <int>2</int>
     </entry>
     <entry>
       <string>jzombies.Human</string>
+      <int>1</int>
+    </entry>
+    <entry>
+      <string>jzombies.Ziel</string>
       <int>0</int>
     </entry>
   </layerOrder>
@@ -62,23 +64,11 @@
       <attributes/>
       <type>continuous space</type>
     </repast.simphony.scenario.data.ProjectionData>
-    <repast.simphony.scenario.data.ProjectionData>
-      <id>infection network</id>
-      <attributes/>
-      <type>network</type>
-    </repast.simphony.scenario.data.ProjectionData>
   </projections>
   <visualizationProperties class="repast.simphony.visualization.UnitSizeLayoutProperties">
     <unitSize>15.0</unitSize>
   </visualizationProperties>
   <projectionDescriptors>
-    <entry>
-      <string>infection network</string>
-      <repast.simphony.visualization.engine.DefaultProjectionDescriptor>
-        <proj reference="../../../../projections/repast.simphony.scenario.data.ProjectionData[2]"/>
-        <props/>
-      </repast.simphony.visualization.engine.DefaultProjectionDescriptor>
-    </entry>
     <entry>
       <string>space</string>
       <repast.simphony.visualization.continuous.ContinuousProjectionDescriptor>

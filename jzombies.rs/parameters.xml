@@ -6,12 +6,6 @@
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
 									
 		/>
-				<parameter name="human_count" displayName="Human Count" type="int" 
-						defaultValue="200" 
-						isReadOnly="false" 
-						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
-									
-		/>
 				<parameter name="default_observer_minPycor" displayName="default_observer_minPycor" type="int" 
 						defaultValue="-16" 
 						isReadOnly="false" 
@@ -32,12 +26,6 @@
 		/>
 				<parameter name="default_observer_minPxcor" displayName="default_observer_minPxcor" type="int" 
 						defaultValue="-16" 
-						isReadOnly="false" 
-						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
-									
-		/>
-				<parameter name="zombie_count" displayName="Zombie Count" type="int" 
-						defaultValue="5" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
 									
